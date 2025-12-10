@@ -1,0 +1,50 @@
+# Go build artifacts
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+*.out
+*.prof
+
+# Dependency directories
+/vendor/
+/bin/
+
+# Go workspace and module cache (optional, but useful)
+/go/pkg/
+/go/bin/
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*~
+
+# IDE and editor files
+.idea/          # GoLand/JetBrains IDE
+.vscode/        # Visual Studio Code
+*.iml           # IntelliJ module files
+
+# OS-specific files
+.DS_Store       # macOS
+Thumbs.db       # Windows
+desktop.ini     # Windows
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# Environment files (if you have sensitive info)
+.env
+*.env.*
+
+# Coverage and profiling
+cover.out
+profile.out
+
+# Ignore go.work if not needed
+go.work
+go.work.sum
